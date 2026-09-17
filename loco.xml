@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Bundle-Konfiguration fuer Loco Translate, uebernommen aus pcl-fluentcrm-de.
+
+  Ohne diese Datei saehe Loco hier nur ein Plugin mit der Textdomain
+  "pcl-fluentsmtp-de". Der Katalog, um den es geht, gehoert der fremden
+  Textdomain "fluent-smtp"; Loco muss ausdruecklich erfahren, dass dieses
+  Bundle ihn mitbringt. Damit bleibt Loco als Editor fuer Handgriffe nutzbar,
+  und es gibt keinen zweiten Stand in wp-content/languages/loco/.
+
+  Fuer die Werkzeugkette ist Loco nicht zustaendig: Die Kataloge entstehen im
+  Repo, und ein Speichern in Loco wird beim naechsten deploy.sh ueberschrieben.
+
+  Der Domain Path heisst bei FluentSMTP "/language". Die Vorlage (.pot)
+  liegt im Quell-Plugin und kommt mit dessen Updates.
+-->
+<bundle name="PC'L Übersetzungen für FluentSMTP" min-version="2.6.0">
+
+  <domain name="fluent-smtp">
+    <project name="FluentSMTP" slug="fluent-smtp">
+      <source>
+        <directory>../fluent-smtp/app</directory>
+        <directory>../fluent-smtp/includes</directory>
+        <file>../fluent-smtp/fluent-smtp.php</file>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-smtp/language/fluent-smtp.pot</file>
+      </template>
+    </project>
+  </domain>
+
+</bundle>

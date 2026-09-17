@@ -1,0 +1,10 @@
+# Erzeugnisse: .mo und .l10n.php entstehen aus den .po und stecken im Release.
+*.mo
+*.l10n.php
+
+# Ausnahme: die mitgelieferte Bibliothek plugin-update-checker bringt ihre
+# eigenen Kataloge mit. Die sind kein Erzeugnis dieses Projekts.
+!plugin-update-checker/languages/*.mo
+
+# Loco-Sicherungen
+*.po~
