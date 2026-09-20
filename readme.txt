@@ -4,7 +4,7 @@ Tags: fluentsmtp, smtp, deutsch, übersetzung, german
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,7 @@ Unabhängiges Projekt, keine Verbindung zu WPManageNinja.
 
 == Installation ==
 
-1. Das ZIP aus den GitHub-Releases herunterladen.
+1. Das ZIP aus den GitHub-Releases herunterladen – aus dem Bereich „Releases“, nicht über „Code → Download ZIP“. Im Quellcode-Archiv fehlen die gebauten Kataloge.
 2. Im Backend unter Plugins → Installieren → Plugin hochladen einspielen und aktivieren.
 
 Die Seite muss auf `de_DE` oder `de_DE_formal` stehen. Weitere Updates meldet das Plugin von selbst.
@@ -42,6 +42,9 @@ Nein. WordPress bringt dafür einen Rahmen mit, wendet ihn aber nur auf Download
 Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englischen Text, ist das für gettext ein neuer Schlüssel. Am besten erst FluentSMTP aktualisieren, dann dieses Plugin. Produktnamen und technische Bezeichner bleiben bewusst englisch.
 
 == Changelog ==
+
+= 1.3.1 =
+* Hinweis in der Verwaltung und in der Plugin-Liste, wenn das Plugin aus dem Quellcode-Archiv statt aus den Releases installiert wurde und die gebauten Kataloge deshalb fehlen.
 
 = 1.3.0 =
 * Erste öffentliche Fassung, abgeglichen mit FluentSMTP 2.4.0.
