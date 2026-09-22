@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fsmtp-de
  * Update URI:        https://github.com/blocoder/pcl-fsmtp-de
  * Description:       Liefert die deutsche Übersetzung für FluentSMTP aus, in beiden Anreden (de_DE und de_DE_formal). Lädt sie vor allen anderen Katalogen und hält das unvollständige Sprachpaket von wordpress.org fern. Stellt Datumsangaben und Datumswähler der FluentSMTP-Verwaltung auf Deutsch. Der Katalog wird nur geladen, wenn FluentSMTP installiert ist.
- * Version:           1.3.1
+ * Version:           1.3.2
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
