@@ -8,11 +8,20 @@ und nebenbei die Datumsangaben der FluentSMTP-Verwaltung eindeutscht.
 > FluentSMTP.
 
 > [!IMPORTANT]
-> **Nur das ZIP aus den [Releases](https://github.com/blocoder/pcl-fsmtp-de/releases/latest) installieren.**
-> Das Quellcode-Archiv der Repo-Startseite („Code → Download ZIP“) enthält
-> allein die `.po`-Dateien. Die daraus gebauten Kataloge (`.mo`, `.l10n.php`)
-> stecken im Release-Archiv – ohne sie übersetzt das Plugin nichts, und in der
-> Plugin-Liste steht „Keine Kataloge gefunden“.
+> **Dieses Plugin wird nicht mehr gepflegt (Stand 22.09.2026).**
+> Die deutsche Übersetzung für FluentSMTP liefert seit dem 22.09.2026
+> **[pcl-fluent-de](https://github.com/blocoder/pcl-fluent-de)** aus – zusammen
+> mit den Übersetzungen für FluentCommunity, FluentCommunity Pro,
+> FluentMessaging, FluentPlayer, FluentAuth, FluentSMTP und FluentSnippets.
+> Jede davon lässt sich dort einzeln abschalten oder auf Englisch stellen.
+>
+> **Die Releases dieses Repos sind entfernt**, hier gibt es nichts mehr zu
+> installieren. Wer `pcl-fluentsmtp-de` noch aktiv hat: erst `pcl-fluent-de`
+> einspielen, dann dieses Plugin deaktivieren. Solange es aktiv ist, hält sich
+> der Nachfolger für FluentSMTP bewusst heraus, damit nicht zwei Kataloge und
+> zwei gleichnamige Funktionen nebeneinander laden.
+>
+> Der Quellstand bleibt als Chronik stehen.
 
 ---
 
